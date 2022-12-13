@@ -6,13 +6,19 @@
 * cd into folder and run `bin/dev`
 * `bundle exec rspec` to run tests 
 
+## Requirements 
+* pull external articals
+* display articals on page load
+* global like artical on page load
+
+
 ## To Do
 * ~~scaffold Articals~~
   * ~~external_id~~
   * ~~likes_count~~
 * ~~set root to Articals#index~~
-* styling for index page 
-  * capabara test for content 
+* ~~styling for index page~~ 
+  * ~~capabara test for content~~ 
 * service for fetching articals
   - unit test with rspec
 * presenter

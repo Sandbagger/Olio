@@ -74,6 +74,7 @@ end
 
 gem 'httparty'
 
-gem 'capybara'
-
-
+group :test do
+  gem 'capybara'
+  gem 'selenium-webdriver'
+end
