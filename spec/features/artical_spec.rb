@@ -7,4 +7,4 @@ RSpec.describe "Artical", :type => :feature do
     expect(page).to have_content 'Bananas'
     expect(page).to have_content 'Likes 1'
   end
-end 
+end
