@@ -19,8 +19,8 @@
 * ~~set root to Articals#index~~
 * ~~styling for index page~~ 
   * ~~capabara test for content~~ 
-* service for fetching articals
-  - unit test with rspec
+* ~~service for fetching articals~~
+  - ~~unit test with rspec~~
 * presenter
   * find or create artical based on external_id
 * scaffold Like
