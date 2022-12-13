@@ -1,12 +1,8 @@
-<div id="<%= dom_id artical %>">
-  <p>
-    <strong>External:</strong>
-    <%= artical.external_id %>
-  </p>
-
-  <p>
-    <strong>Integer:</strong>
-    <%= artical.integer %>
-  </p>
-
+<div class="col" dom_id artical>
+  <div class="card" style="width: 18rem;">
+  <img class="card-img-top" src='https://www.shutterstock.com/image-photo/bunch-bananas-on-blue-background-600w-1892159743.jpg' alt="Card image of an Olio Artical">
+  <div class="card-body">
+    <p class="card-text text-truncate"> Bananas </p>
+    <%= button_to "Likes 1" %>
+  </div>
 </div>
