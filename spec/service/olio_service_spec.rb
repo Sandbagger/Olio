@@ -1,6 +1,6 @@
 require "rails_helper"
 
-RSpec.describe 'Olio' do
+RSpec.describe 'OlioService' do
   let(:url) {'https://s3-eu-west-1.amazonaws.com/olio-staging-images/developer/test-articles-v4.json'}
   let(:body) { File.read('spec/response.json').to_json }
   let(:response) { instance_double(HTTParty::Response, body: body) }
@@ -11,6 +11,6 @@ RSpec.describe 'Olio' do
   end
 
   it 'returns an array of articals' do
-    expect(Olio.new.articals).to eq parsed_response
+    expect(OlioService.new.articals).to eq parsed_response
   end
 end
