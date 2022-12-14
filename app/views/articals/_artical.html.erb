@@ -7,7 +7,7 @@
     <img class="card-img-top" src=<%= a.image %> alt="Image of a <%= a.title %>">
     <div class="card-body">
       <p class="card-text text-truncate"> <%= a.description %> </p>
-      <%= button_to "Likes 1" %>
+      <%= button_to "Likes #{a.likes}", artical_create_like_path(artical_id: a.id), :method => :post,  :remote => true %>
     </div>
   </div>
 </div>

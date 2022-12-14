@@ -20,4 +20,8 @@
     def image
       @artical_attr.images.first.files.small
     end
+
+    def likes
+      @artical.likes.count || 0
+    end
   end
