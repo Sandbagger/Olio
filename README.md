@@ -1,13 +1,17 @@
 # README
 
+
 ## Set up 
 * `git clone https://github.com/Sandbagger/Olio.git`
-* cd into folder and run 
+* cd into the Olio folder and run 
   * `bundle install`
   * `rails db:create`
   * `rails db:migrate`
   * `bin/dev`
 * in a seperate terminal `bundle exec rspec` to run tests 
+
+## Deplyed site
+You can visit the website at https://olio.fly.dev/articals
 
 ## Requirements 
 * pull in external articals
