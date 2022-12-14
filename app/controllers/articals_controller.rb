@@ -3,7 +3,7 @@ class ArticalsController < ApplicationController
 
   # GET /articals or /articals.json
   def index
-    @articals = Artical.all
+    @articals = OlioService.new.articals
   end
 
   # GET /articals/1 or /articals/1.json

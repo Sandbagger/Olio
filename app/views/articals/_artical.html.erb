@@ -1,8 +1,13 @@
-<div class="col" dom_id artical>
+<% a = OlioPresenter.new(artical)%>
+<div class="col">
   <div class="card" style="width: 18rem;">
-  <img class="card-img-top" src='https://www.shutterstock.com/image-photo/bunch-bananas-on-blue-background-600w-1892159743.jpg' alt="Card image of an Olio Artical">
-  <div class="card-body">
-    <p class="card-text text-truncate"> Bananas </p>
-    <%= button_to "Likes 1" %>
+   <div class="card-body">
+      <p class="card-text text-truncate"> <%= a.title %> </p>
+      </div>
+    <img class="card-img-top" src=<%= a.image %> alt="Image of a <%= a.title %>">
+    <div class="card-body">
+      <p class="card-text text-truncate"> <%= a.description %> </p>
+      <%= button_to "Likes 1" %>
+    </div>
   </div>
 </div>

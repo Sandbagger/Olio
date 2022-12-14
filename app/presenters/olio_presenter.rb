@@ -13,6 +13,10 @@
       @artical_attr.title
     end
 
+    def description
+      @artical_attr.description
+    end
+
     def image
       @artical_attr.images.first.files.small
     end
